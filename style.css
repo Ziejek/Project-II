@@ -1,0 +1,64 @@
+/*NAV*/
+
+body {
+    margin: 0;
+}
+.site-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.site-nav_user-actions {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.site-nav_user-action {
+    padding: 0 10px;
+}
+
+.site-nav_action-trigger {
+    text-decoration: none;
+    color: black;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+/*Main*/
+
+.content_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 8rem;
+}
+
+.img1 {
+    width: 300px;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.site_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.dsc_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_box {
+    display: flex;
+    flex-direction: row;
+}
